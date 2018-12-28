@@ -27,3 +27,35 @@ else:
 ```
 
 See **example.py** for the full code.
+
+
+## Modifying the banknote stock ##
+
+By default, the script is provided with the Romanian banknotes values and some random values for the stock.
+
+```python
+self.banknotes = OrderedDict({
+                500: 100,
+                200: 10,
+                100: 36,
+                50: 12,
+                10: 2,
+                5: 500,
+                1: 500
+            })
+```
+
+If you want to replace them, just initialize the class `MoneyCalculator` with `banknotes=OrderedDict({<your values here>})`
+
+Example:
+```python
+mc = MoneyCalculator(banknotes=OrderedDict({
+                500: 100,
+                200: 10,
+                100: 36,
+                50: 12,
+                10: 2,
+                5: 500,
+                1: 500
+            }))
+```
