@@ -29,7 +29,7 @@ else:
 See **example.py** for the full code.
 
 
-## Modifying the banknote stock ##
+## Modifying the banknotes stock ##
 
 By default, the script is provided with the Romanian banknotes values and some random values for the stock.
 

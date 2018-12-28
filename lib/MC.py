@@ -42,7 +42,7 @@ class MoneyCalculator(object):
                 how_many = int(amount / banknote)
 
                 # If the division is more than 0 and we have a valid stock
-                if how_many != 0:
+                if how_many > 0:
                     # If the stock is lower than how much we will need, take all available
                     if stock <= how_many:
                         # Take all from the stock
